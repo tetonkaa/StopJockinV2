@@ -1,0 +1,16 @@
+.navStyle{
+    background-color: rgba(49, 144, 227, 0) !important; /* updates color of navigation background */
+    color: rgb(255, 255, 255);
+}
+
+
+
+.navStyle ul{
+    background-color: rgba(255, 255, 255, 0); /* updates color of navigation links container */
+    
+}
+
+
+.navStyle a{
+    color: rgb(255, 255, 255) !important; /* updates color of navigation links text */
+}
