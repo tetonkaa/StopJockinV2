@@ -1,6 +1,7 @@
 .navStyle{
     background-color: rgba(49, 144, 227, 0) !important; /* updates color of navigation background */
     color: rgb(255, 255, 255);
+    z-index: 3 !important;
 }
 
 
