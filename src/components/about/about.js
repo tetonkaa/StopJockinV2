@@ -1,20 +1,23 @@
-export default function About(){
-    return(
-        <div className="aboutPage">
-            <div className="aboutTitle">
-                <h1>
+import './about.css'
+import React from "react";
+import  AboutImage from "../../photos/1980.jpg"
 
-                </h1>
-            </div>
-            <div className="aboutContent">
-                <div className="aboutItem">
-                <img src=""
-                </div>
-                <div className="aboutItem">
 
-                </div>
-
-            </div>
+export default function About() {
+  return (
+    <div className="aboutPage">
+      <div className="aboutTitle">
+        <h1>ABOUT US</h1>
+      </div>
+      <div className="aboutContent">
+        <div className="aboutItem">
+          <img src={AboutImage} />
         </div>
-    )
+        <div className="aboutItem">
+        <h1>Buzz Buzz</h1>
+        <p>BlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurb</p>
+        </div>
+      </div>
+    </div>
+  );
 }
