@@ -5,7 +5,7 @@ import  AboutImage from "../../photos/1980.jpg"
 
 export default function About() {
   return (
-    <div className="aboutPage">
+    <div className="aboutPage" id="about">
       <div className="aboutTitle">
         <h1>ABOUT US</h1>
       </div>

@@ -12,7 +12,7 @@ import { ReactComponent as Yelp } from "../../icons/yelp.svg";
 export default function Main() {
   return (
     <div className="mainPage">
-      <div className="mainPageContainer">
+      <div className="mainPageContainer" id="home">
         <div className="coverTitle">
           <h1>Add title</h1>
           <p>
