@@ -1,67 +1,56 @@
-.aboutPage{
-    display:flex;
-    flex-direction: column;
-    background-color: #d2b8b8
+.aboutPage {
+  display: flex;
+  flex-direction: column;
+  background-color: #d2b8b8;
 }
 
-.aboutTitle{
-    width: 100%;
-    height: 20vh;
-    padding: auto;
-    display: flex;
-    align-items: center;
+.aboutTitle {
+  width: 100%;
+  height: 20vh;
+  padding: auto;
+  display: flex;
+  align-items: center;
 }
 
-.aboutTitle h1{
-    font-size: 2.5em;
-    color: white;
-    width: 100%;
-    
+.aboutTitle h1 {
+  font-size: 2.5em;
+  color: white;
+  width: 100%;
 }
 
-.aboutContent{
-    display: flex;
-    flex-direction: row;
-    height: 80vh;
-    border: dotted yellow;
-    
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
 }
 
-.aboutItem{
-    width: 50%;
-    background-color:#4f6b76;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.aboutItem {
+  width: 50%;
+  background-color: #4f6b76;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.aboutItem img{
-    width: 100%;
+.aboutItem img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-
-.aboutItem h1{
-    color: rgb(0, 0, 0);
-    margin: auto;
-    font-size: 2.5em;
-    width: 100%;
-
+.aboutItem h1 {
+  color: rgb(0, 0, 0);
+  margin: auto;
+  font-size: 2.5em;
+  width: 100%;
 }
 
-.aboutItem p{
-    color: white;
-    margin: auto;
-    width: 50%;
-    height: 50%;
-    overflow: hidden;
+.aboutItem p {
+  color: white;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
   word-wrap: break-word;
   font-size: 1em;
 }
-
-
-
-
-
-

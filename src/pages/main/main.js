@@ -2,6 +2,7 @@ import "./main.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "../../components/about/about"
+import Contact from "../../pages/contact/contact"
 import { ReactComponent as Location } from "../../icons/location.svg";
 import { ReactComponent as Clock } from "../../icons/clock.svg";
 import { ReactComponent as Phone } from "../../icons/phone.svg";
@@ -63,6 +64,7 @@ export default function Main() {
         </div>
       </div>
       <About/>
+      <Contact/>
     </div>
   );
 }

@@ -1,3 +1,70 @@
-.contactPage{
-    height: 70vh;
+.contactPage {
+  min-height: 100vh;
+  background-color: #d2b8b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
+.contactTitle {
+}
+
+.contactTitle h1 {
+  font-size: 3em;
+  color: white;
+  margin-top: 10vh;
+}
+
+.contactBlurb {
+  color: white;
+}
+
+.contactPageBody {
+  width: 75%;
+  border: 40px double #4f6b76;
+  background-color: #d2b8b8;
+  border-radius: 10px;
+}
+
+.contactFormContainer {
+  height: 60vh;
+}
+
+.contactFormContainer input {
+  width: 50%;
+  outline: none;
+  border: none;
+  outline-color: transparent;
+}
+
+.contactFormContainer input:focus {
+    outline: none;
+    border: none;
+    outline-color: transparent;
+  }
+
+.contactFormContainer textarea {
+  width: 50%;
+  border: none;
+  outline-color: transparent;
+}
+
+.contactFormContainer textarea:focus {
+    outline: none !important;
+    border: none;
+    outline-color: transparent;
+  }
+
+
+  input:focus,
+  textarea:focus,
+  select:focus,
+  .emailInput:focus,
+  .nameInput:focus
+   {
+    outline: none !important;
+    box-shadow: none;
+  }
+
+ 
