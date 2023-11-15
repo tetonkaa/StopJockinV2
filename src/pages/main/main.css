@@ -54,7 +54,7 @@
   font-size: 1.5rem;
   font-family: "Work Sans", sans-serif;
   width: 15vw;
-  margin-top: 5vh;
+  margin-top: 3vh !important;
   transition: 0.2s ease-in-out;
   animation: bounce;
   animation-duration: 2s;
