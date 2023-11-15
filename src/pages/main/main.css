@@ -176,11 +176,23 @@
 }
 
 @media only screen and (max-width: 428px) {
+  .coverTitle h1 {
+    font-family: sandBrush;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+    margin-top: 0vh;
+  }
 
+  .coverTitle p {
+    color: ivory;
+    text-shadow: 4px 8px 7px rgba(0, 0, 0, 0.8);
+    font-size: 1.7em;
+    font-family: "Work Sans", sans-serif;
+  }
   .startButton{
     font-size: 2em;
     width: 5em !important;
   }
+
 
   .contentItem h1 {
     font-size: 1.5em;

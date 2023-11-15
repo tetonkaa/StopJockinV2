@@ -82,3 +82,12 @@ select:focus,
   margin-top: 5vh;
   padding: 0.5em 1em;
 }
+
+
+@media only screen and (max-width: 428px) {
+  .contactTitle h1 {
+    font-size: 6em !important;
+    color: white;
+    margin-top: 5vh;
+  }
+}

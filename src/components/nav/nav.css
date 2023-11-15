@@ -34,3 +34,9 @@
     font-size: 4em;
     color: goldenrod;
 }
+
+@media only screen and (max-width: 428px) {
+    .sjLogo {
+      display: none;
+    }
+  }
