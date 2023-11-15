@@ -1,5 +1,6 @@
 .grid{
     background-color: ivory;
+    padding: 1vh;
 }
 
 .galleryButtons{
@@ -16,3 +17,27 @@
     background-color: goldenrod;
 }
 
+
+@media only screen and (max-width: 573px) {
+    .contentItem h1 {
+      font-size: 1.2em;
+    }
+    
+    .contentItem a {
+      font-size: 0.6em !important;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 948px) {
+    .contentItem h1 {
+      font-size: 1.2em;
+    }
+    
+    .contentItem a {
+      font-size: 0.5em !important;
+      text-align: center;
+      width: 100%;
+    }
+  }

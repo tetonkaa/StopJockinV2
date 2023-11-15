@@ -90,4 +90,43 @@ select:focus,
     color: white;
     margin-top: 5vh;
   }
+
+  .contactPageBody {
+    width: 100% !important;
+    border: 20px double #daa520;
+    background-color: #222222;
+    border-radius: 10px;
+  }
+
+  .contactPage {
+    min-height: 100vh;
+    background-color: #222222;
+    display: flex;
+  }
+
+  .contactFormContainer input {
+    margin-top: 4vh;
+    width: 60%;
+    outline: none;
+    border: none;
+    outline-color: transparent;
+    background-color: #222222;
+    border-bottom: solid ivory;
+    transition: 0.5s ease-in-out;
+    color: ivory;
+    font: size 2.5em;
+  }
+  
+  .contactFormContainer textarea {
+    width: 70%;
+    border: none;
+    margin-top: 4vh;
+    outline-color: transparent;
+    background-color: #222222;
+    border-bottom: solid ivory;
+    transition: 0.5s ease-in-out;
+    color: ivory;
+  }
+  
+
 }

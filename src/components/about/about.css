@@ -76,6 +76,17 @@
 }
 
 @media only screen and (max-width: 626px) {
+
+  .aboutItem p {
+    color: 2222222;
+    margin: auto;
+    width: 70%;
+    height: 80%;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 1.5em;
+  }
+
   .aboutItem:nth-of-type(1) {
     width: 0%;
     display: none;

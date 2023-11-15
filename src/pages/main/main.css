@@ -226,7 +226,7 @@
     text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
     margin-top: 0vh;
   }
-  
+
   .startButton{
     font-size: 1.5em;
     width: 5em !important;
@@ -252,7 +252,7 @@
   }
   
   .contentItem a {
-    font-size: 0.8em !important;
+    font-size: 0.5em !important;
     text-align: center;
     width: 100%;
   }
