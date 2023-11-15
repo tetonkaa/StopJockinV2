@@ -1,7 +1,9 @@
 .App {
   text-align: center;
-  background-image: url(../public/images/1920.jpg);
-  background-size: cover;
+  background-image: url(../public/images/SjPhoto1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
 }
 
 .App-logo {
@@ -15,6 +17,13 @@
   }
 }
 
+
+@font-face {
+  font-family: 'sandBrush';
+  src: url('../public/fonts/sandbrush_demo-webfont.woff2') format('woff2'),
+       url('../public/fonts/sandbrush_demo-webfont.woff') format('woff');
+
+}
 
 
 .App-header {

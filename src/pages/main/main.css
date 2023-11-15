@@ -11,9 +11,10 @@
 }
 
 .coverTitle {
-  background-color: #4f6b765f;
+  background-image: url("../../../public/images/SjPhoto1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  z-index: 2;
   width: 100%;
   height: 55vh;
   user-select: none;
@@ -21,29 +22,31 @@
 }
 
 .coverTitle h1 {
-  margin-top: 15vh;
-  color: white;
-  font-size: 3.5em;
+  font-family: sandBrush;
+  margin-top: 8vh;
+  color: goldenrod;
+  font-size: 10.5em;
 }
 
 .coverTitle p {
-  color: white;
-  font-size: 1em;
-  font-weight: lighter;
+  color: ivory;
+  font-size: 1.7em;
+  font-family: "Work Sans", sans-serif;
 }
 
 .startButton {
-  color: white;
+  color: ivory;
   z-index: 3;
-  background-color: #d2b8b8;
-  border: #d2b8b8 solid thick;
+  background-color: goldenrod;
+  border: #000000c1 solid thick;
   border-radius: 10px;
   box-shadow: -8px 10px 115px -24px rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: -8px 10px 115px -24px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: -8px 10px 115px -24px rgba(0, 0, 0, 0.8);
   padding: 1vw;
-  font-size: 1rem;
-  width: 20vw;
+  font-size: 1.5rem;
+  font-family: "Work Sans", sans-serif;
+  width: 15vw;
   margin-top: 5vh;
   transition: 0.5s ease-in-out;
 }
@@ -55,7 +58,7 @@
 }
 
 .contentContainer {
-  background: #d2b8b8;
+  background: ivory;
   z-index: 2;
   display: flex;
   flex-direction: row;
@@ -72,14 +75,14 @@
 
 .contentField:nth-of-type(1) {
   width: 50%;
-  background-color: #d2b8b8;
+  background-color: ivory;
   height: 15vh;
   z-index: 2;
 }
 
 .contentField:nth-of-type(1):hover {
   width: 50%;
-  background-color: #d2b8b8;
+  background-color: goldenrod;
   height: 25vh;
   z-index: 2;
 }
@@ -143,6 +146,10 @@
   color: white;
   height: 30vh;
   margin: auto;
+  border: dotted;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .buzz {

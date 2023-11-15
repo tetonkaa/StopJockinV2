@@ -15,3 +15,9 @@
 .navStyle a{
     color: rgb(255, 255, 255) !important; /* updates color of navigation links text */
 }
+
+.sjLogo{
+    font-family: sandBrush;
+    font-size: 4em;
+    color: goldenrod;
+}

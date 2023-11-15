@@ -15,10 +15,9 @@ export default function Main() {
     <div className="mainPage">
       <div className="mainPageContainer" id="home">
         <div className="coverTitle">
-          <h1>Add title</h1>
+          <h1>StopJockin</h1>
           <p>
-            Lorem ipsum dimsum chim sum Lorem ipsum dimsum chim sumLorem ipsum
-            dimsum chim sum Lorem ipsum dimsum chim sum
+            The most stylish barbershop in New Orleans.
           </p>
           <a href="/contact">
             <button className="startButton">Contact</button>
