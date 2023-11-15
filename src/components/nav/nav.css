@@ -1,7 +1,8 @@
 .navStyle{
     background-color: rgba(49, 144, 227, 0) !important; /* updates color of navigation background */
-    color: rgb(255, 255, 255);
+    color: goldenrod;
     z-index: 3 !important;
+    backdrop-filter: blur(2px);
 }
 
 
@@ -11,10 +12,22 @@
     
 }
 
+.navStyle li:hover{
+    cursor: pointer;
+    color: goldenrod
+}
+
 
 .navStyle a{
-    color: rgb(255, 255, 255) !important; /* updates color of navigation links text */
+    color: ivory; /* updates color of navigation links text */
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
 }
+
+.navStyle a:hover{
+    color: goldenrod;
+    transition: .3s ease-in-out
+}
+
 
 .sjLogo{
     font-family: sandBrush;

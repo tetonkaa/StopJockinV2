@@ -127,7 +127,7 @@ export default function Contact() {
               ></textarea>
               <br />
               <div>
-                <button className="btn ac_btn" type="submit">
+                <button className="sendButton" type="submit">
                   {formData.loading ? "Sending..." : "Send"}
                 </button>
               </div>

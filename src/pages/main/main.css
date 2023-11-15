@@ -23,6 +23,7 @@
 
 .coverTitle h1 {
   font-family: sandBrush;
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
   margin-top: 8vh;
   color: goldenrod;
   font-size: 10.5em;
@@ -30,15 +31,21 @@
 
 .coverTitle p {
   color: ivory;
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
   font-size: 1.7em;
   font-family: "Work Sans", sans-serif;
+}
+
+.coverTitle button {
+  width: 15vw;
+  margin: auto;
 }
 
 .startButton {
   color: ivory;
   z-index: 3;
   background-color: goldenrod;
-  border: #000000c1 solid thick;
+  border: #000000c1 #222222;
   border-radius: 10px;
   box-shadow: -8px 10px 115px -24px rgba(0, 0, 0, 0.8);
   -webkit-box-shadow: -8px 10px 115px -24px rgba(0, 0, 0, 0.8);
@@ -48,13 +55,18 @@
   font-family: "Work Sans", sans-serif;
   width: 15vw;
   margin-top: 5vh;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
+  animation: bounce;
+  animation-duration: 2s;
 }
 
 .startButton:hover {
-  background-color: #d2b8b8;
-  border: #ffffff solid thick;
-  transition: 0.5s ease-in-out;
+  background-color: #222222;
+  border: goldenrod solid thick;
+  transition: 0.2s ease-in-out;
+  animation: bounce;
+  animation-duration: 2s;
+  color: goldenrod;
 }
 
 .contentContainer {
@@ -89,7 +101,7 @@
 
 .contentField:nth-of-type(2) {
   width: 50%;
-  background-color: #4f6b76;
+  background-color: goldenrod;
   height: 10vh;
   z-index: 2;
 }
@@ -119,7 +131,6 @@
 
 .contentField:nth-of-type(2) .contentItem {
   width: 50%;
-  background-color: #4f6b76;
   z-index: 2;
   display: flex;
   flex-direction: row;
@@ -132,7 +143,7 @@
 }
 
 .contentItem h1 {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 .contentItem a {
@@ -142,16 +153,16 @@
 }
 
 .contentBody {
-  background-color: #4f6b76;
-  color: white;
+  background-color: #222222;
+  color: ivory;
   height: 30vh;
   margin: auto;
-  border: dotted;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .buzz {
-  font-size: 3em;
+  font-size: 5em;
+  font-family: sandBrush;
 }

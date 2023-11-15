@@ -6,6 +6,8 @@ import Nav from "./components/nav/nav";
 import Main from "./pages/main/main";
 import Footer from "./components/footer/footer";
 import Contact from "./pages/contact/contact"
+import 'animate.css';
+
 function App() {
 
   const scrollToTop = () => {

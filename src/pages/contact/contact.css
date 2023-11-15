@@ -1,6 +1,6 @@
 .contactPage {
   min-height: 100vh;
-  background-color: #d2b8b8;
+  background-color: #222222;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,8 +22,8 @@
 
 .contactPageBody {
   width: 75%;
-  border: 40px double #4f6b76;
-  background-color: #d2b8b8;
+  border: 40px double #daa520;
+  background-color: #222222;
   border-radius: 10px;
 }
 

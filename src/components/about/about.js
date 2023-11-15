@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="aboutPage" id="about">
       <div className="aboutTitle">
-        <h1>ABOUT US</h1>
+        <h1>About</h1>
       </div>
       <div className="aboutContent">
         <div className="aboutItem">

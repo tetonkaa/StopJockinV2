@@ -3,7 +3,14 @@
   background-image: url(../public/images/SjPhoto1.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  font-family: sandBrush;
 }
 
 .App-logo {
@@ -17,14 +24,11 @@
   }
 }
 
-
 @font-face {
-  font-family: 'sandBrush';
-  src: url('../public/fonts/sandbrush_demo-webfont.woff2') format('woff2'),
-       url('../public/fonts/sandbrush_demo-webfont.woff') format('woff');
-
+  font-family: "sandBrush";
+  src: url("../public/fonts/sandbrush_demo-webfont.woff2") format("woff2"),
+    url("../public/fonts/sandbrush_demo-webfont.woff") format("woff");
 }
-
 
 .App-header {
   background-color: #282c34;
