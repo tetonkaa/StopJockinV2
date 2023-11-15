@@ -218,3 +218,42 @@
 
 
 }
+
+@media only screen and (max-width: 626px) {
+
+  .coverTitle h1 {
+    font-family: sandBrush;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+    margin-top: 0vh;
+  }
+  
+  .startButton{
+    font-size: 1.5em;
+    width: 5em !important;
+  }
+}
+
+
+@media only screen and (max-width: 573px) {
+  .contentItem h1 {
+    font-size: 1.2em;
+  }
+  
+  .contentItem a {
+    font-size: 0.6em !important;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 948px) {
+  .contentItem h1 {
+    font-size: 1.2em;
+  }
+  
+  .contentItem a {
+    font-size: 0.8em !important;
+    text-align: center;
+    width: 100%;
+  }
+}
