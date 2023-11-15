@@ -15,6 +15,7 @@ import { ReactComponent as Phone } from "../../icons/phone.svg";
 import { ReactComponent as Facebook } from "../../icons/facebook.svg";
 import { ReactComponent as Instagram } from "../../icons/instagram.svg";
 import { ReactComponent as Yelp } from "../../icons/yelp.svg";
+import { Link, animateScroll as scroll, scroller } from "react-scroll";
 
 export default function Main() {
   const navigate = useNavigate();
@@ -28,9 +29,20 @@ export default function Main() {
         <div className="coverTitle">
           <h1>StopJockin</h1>
           <p>The most stylish barbershop in New Orleans.</p>
-          <button onClick={handleClick} className="startButton">
+          <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+              >
+          <button className="startButton">
             Contact
           </button>
+          </Link>
         </div>
         <div className="contentContainer">
           <div className="contentField">

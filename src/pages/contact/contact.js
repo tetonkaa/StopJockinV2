@@ -6,7 +6,7 @@ export default function Contact() {
   const contactConfig = {
     YOUR_EMAIL: "ViceDevGroup@Gmail.com",
     description:
-      "Need an application or website to be built? Write to us and we'll get back as soon as possible",
+      "Want to schedule a haircut? Need help hosting an event at Lot-7? Hit us up!",
     // creat an emailjs.com account
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "need2add",

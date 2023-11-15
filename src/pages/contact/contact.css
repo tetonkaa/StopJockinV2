@@ -4,16 +4,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .contactTitle {
 }
 
 .contactTitle h1 {
-  font-size: 3em;
+  font-size: 10em !important;
   color: white;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 .contactBlurb {
@@ -39,16 +38,16 @@
   outline-color: transparent;
   background-color: #222222;
   border-bottom: solid ivory;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: ivory;
-  font: size 2.5em
+  font: size 2.5em;
 }
 
 .contactFormContainer input:focus {
-    outline: none;
-    outline-color: transparent;
-    transition: .5s ease-in-out
-  }
+  outline: none;
+  outline-color: transparent;
+  transition: 0.5s ease-in-out;
+}
 
 .contactFormContainer textarea {
   width: 50%;
@@ -57,25 +56,29 @@
   outline-color: transparent;
   background-color: #222222;
   border-bottom: solid ivory;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: ivory;
 }
 
 .contactFormContainer textarea:focus {
-    outline: none !important;
-    outline-color: transparent;
-  }
+  outline: none !important;
+  outline-color: transparent;
+}
 
+input:focus,
+textarea:focus,
+select:focus,
+.emailInput:focus,
+.nameInput:focus {
+  outline: none !important;
+  box-shadow: none;
+  border-bottom: solid goldenrod;
+}
 
-  input:focus,
-  textarea:focus,
-  select:focus,
-  .emailInput:focus,
-  .nameInput:focus
-   {
-    outline: none !important;
-    box-shadow: none;
-    border-bottom: solid goldenrod;
-  }
-
- 
+.sendButton {
+  background-color: #daa520;
+  color: ivory;
+  border-radius: 5px;
+  margin-top: 5vh;
+  padding: 0.5em 1em;
+}
