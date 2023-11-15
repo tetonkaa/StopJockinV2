@@ -36,7 +36,6 @@ export default function Main() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                 aria-current="page"
               >
           <button className="startButton">
@@ -53,7 +52,7 @@ export default function Main() {
               <h1>Address</h1>
               <a>3600 Jumonville Street, 70112</a>
             </div>
-            <div className="contentItem">
+            <div className="contentItem locationSvgs">
               <Clock />
               <h1>Hours</h1>
               <a>Tuesday-Saturday: 9am - 6pm</a>
