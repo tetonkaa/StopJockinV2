@@ -7,6 +7,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import About from "../../components/about/about";
+import Gallery from "../../components/gallery/gallery";
 import Contact from "../../pages/contact/contact";
 import { ReactComponent as Location } from "../../icons/location.svg";
 import { ReactComponent as Clock } from "../../icons/clock.svg";
@@ -75,6 +76,7 @@ export default function Main() {
         </div>
       </div>
       <About />
+      <Gallery />
       <Contact />
     </div>
   );

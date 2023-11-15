@@ -1,0 +1,18 @@
+.grid{
+    background-color: ivory;
+}
+
+.galleryButtons{
+    background-color: #222222;
+}
+
+.galleryButtons button{
+    border: red;
+    background-color: goldenrod;
+}
+
+.galleryButtons button:hover{
+    outline: red 10px !important;
+    background-color: goldenrod;
+}
+

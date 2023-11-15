@@ -44,7 +44,7 @@ export default function Nav() {
             </li>
             <li>
             <Link
-                to="contact"
+                to="galleryComponent"
                 spy={true}
                 smooth={true}
                 offset={-70}
