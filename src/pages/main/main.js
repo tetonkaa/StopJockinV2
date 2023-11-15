@@ -50,7 +50,9 @@ export default function Main() {
             <div className="contentItem">
               <Phone />
               <h1>Call</h1>
-              <a>(504) 613-7996</a>
+              <a href="tel:+15046137996" tel="+15046137996">
+                (504) 613-7996
+              </a>
             </div>
           </div>
           <div className="contentField">

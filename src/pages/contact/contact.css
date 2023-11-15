@@ -32,27 +32,37 @@
 }
 
 .contactFormContainer input {
-  width: 50%;
+  margin-top: 4vh;
+  width: 40%;
   outline: none;
   border: none;
   outline-color: transparent;
+  background-color: #222222;
+  border-bottom: solid ivory;
+  transition: .5s ease-in-out;
+  color: ivory;
+  font: size 2.5em
 }
 
 .contactFormContainer input:focus {
     outline: none;
-    border: none;
     outline-color: transparent;
+    transition: .5s ease-in-out
   }
 
 .contactFormContainer textarea {
   width: 50%;
   border: none;
+  margin-top: 4vh;
   outline-color: transparent;
+  background-color: #222222;
+  border-bottom: solid ivory;
+  transition: .5s ease-in-out;
+  color: ivory;
 }
 
 .contactFormContainer textarea:focus {
     outline: none !important;
-    border: none;
     outline-color: transparent;
   }
 
@@ -65,6 +75,7 @@
    {
     outline: none !important;
     box-shadow: none;
+    border-bottom: solid goldenrod;
   }
 
  
