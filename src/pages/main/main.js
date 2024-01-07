@@ -16,6 +16,7 @@ import { ReactComponent as Facebook } from "../../icons/facebook.svg";
 import { ReactComponent as Instagram } from "../../icons/instagram.svg";
 import { ReactComponent as Yelp } from "../../icons/yelp.svg";
 import { Link, animateScroll as scroll, scroller } from "react-scroll";
+import Content from '../../data/content.json'
 
 export default function Main() {
   const navigate = useNavigate();
@@ -23,12 +24,13 @@ export default function Main() {
   function handleClick() {
     navigate("/contact");
   }
+
   return (
     <div className="mainPage">
       <div className="mainPageContainer" id="home">
         <div className="coverTitle">
           <h1>StopJockin</h1>
-          <p>The most stylish barbershop in New Orleans.</p>
+          <p>{Content.slogan}</p>
           <Link
                 activeClass="active"
                 to="contact"
@@ -81,10 +83,9 @@ export default function Main() {
           </div>
         </div>
         <div className="contentBody">
-          <h1 className="buzz">Sharp Clean Smooth</h1>
+          <h1 className="buzz">{Content.flairText}</h1>
           <p>
-            Lorem ipsum dimsum chim sum Lorem ipsum dimsum chim sumLorem ipsum
-            dimsum chim sum Lorem ipsum dimsum chim sum
+            {Content.flairSubText}
           </p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import './about.css'
 import React from "react";
 import  AboutImage from "../../photos/haircut1.jpg"
+import Content from '../../data/content.json'
 
 
 export default function About() {
@@ -14,8 +15,8 @@ export default function About() {
           <img src={AboutImage} />
         </div>
         <div className="aboutItem">
-        <h1>Buzz Buzz</h1>
-        <p>BlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurbBlurb</p>
+        <h1>{Content.aboutHeader}</h1>
+        <p>{Content.about}</p>
         </div>
       </div>
     </div>
