@@ -4,7 +4,7 @@ import "./contact.css";
 
 export default function Contact() {
   const contactConfig = {
-    YOUR_EMAIL: "ViceDevGroup@Gmail.com",
+    YOUR_EMAIL: "stopjockin@gmail.com",
     description:
       "Want to schedule a haircut? Need help hosting an event at Lot-7? Hit us up!",
     // creat an emailjs.com account
@@ -90,7 +90,7 @@ export default function Contact() {
           <div className="contactFormContainer">
             <form onSubmit={handleSubmit} className="">
               <div>
-                <div  className="">
+                <div className="">
                   <input
                     class="nameInput"
                     id=""
