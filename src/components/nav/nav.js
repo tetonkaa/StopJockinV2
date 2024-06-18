@@ -6,7 +6,7 @@ export default function Nav() {
     <nav class="bg-none navStyle dark:bg-gray-900 fixed w-full z-20 top-0 left-0  dark:border-gray-600">
       <div class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center">
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white sjLogo">
+          <span class="self-center text-2xl whitespace-nowrap dark:text-white sjLogo">
             StopJockin
           </span>
         </a>
@@ -43,7 +43,7 @@ export default function Nav() {
               </Link>
             </li>
             <li>
-            <Link
+              <Link
                 to="galleryComponent"
                 spy={true}
                 smooth={true}
