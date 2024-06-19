@@ -32,7 +32,7 @@
 
 .contactFormContainer input {
   margin-top: 4vh;
-  width: 40%;
+  width: 50%;
   outline: none;
   border: none;
   outline-color: transparent;
@@ -83,7 +83,6 @@ select:focus,
   padding: 0.5em 1em;
 }
 
-
 @media only screen and (max-width: 428px) {
   .contactTitle h1 {
     font-size: 6em !important;
@@ -116,9 +115,9 @@ select:focus,
     color: ivory;
     font: size 2.5em;
   }
-  
+
   .contactFormContainer textarea {
-    width: 70%;
+    width: 60%;
     border: none;
     margin-top: 4vh;
     outline-color: transparent;
@@ -127,6 +126,4 @@ select:focus,
     transition: 0.5s ease-in-out;
     color: ivory;
   }
-  
-
 }

@@ -3,7 +3,7 @@ import "./Carousel.css";
 
 const images = [
   require("../../photos/haircut1.jpg"),
-  require("../../photos/haircut2.jpg"),
+  require("../../photos/haircut11.jpg"),
   require("../../photos/haircut3.jpg"),
   require("../../photos/haircut4.jpg"),
   require("../../photos/haircut5.jpg"),
