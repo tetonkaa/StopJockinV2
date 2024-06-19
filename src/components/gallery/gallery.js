@@ -32,13 +32,13 @@ export default function Gallery() {
     { url: require("../../photos/coffee6.jpg"), category: "Coffee" },
     { url: require("../../photos/coffee7.jpg"), category: "Coffee" },
 
-    { url: require("../../photos/snoballs1.jpeg"), category: "Snoballs" },
-    { url: require("../../photos/snoballs2.jpeg"), category: "Snoballs" },
-    { url: require("../../photos/snoballs3.jpeg"), category: "Snoballs" },
-    { url: require("../../photos/snoballs4.jpeg"), category: "Snoballs" },
-    { url: require("../../photos/snoballs5.jpeg"), category: "Snoballs" },
-    { url: require("../../photos/snoballs6.jpeg"), category: "Snoballs" },
-    { url: require("../../photos/snoballs7.jpeg"), category: "Snoballs" },
+    { url: require("../../photos/snoball1.jpg"), category: "Snoballs" },
+    { url: require("../../photos/snoball2.jpg"), category: "Snoballs" },
+    { url: require("../../photos/snoball3.jpg"), category: "Snoballs" },
+    { url: require("../../photos/snoball4.jpg"), category: "Snoballs" },
+    { url: require("../../photos/snoball5.jpg"), category: "Snoballs" },
+    { url: require("../../photos/snoball6.jpg"), category: "Snoballs" },
+    { url: require("../../photos/snoball7.jpg"), category: "Snoballs" },
   ];
 
   useEffect(() => {
@@ -64,7 +64,7 @@ export default function Gallery() {
     },
     SnoBalls: {
       label: "SnoBalls",
-      images: shuffledImages.filter((image) => image.category === "SnoBalls"),
+      images: shuffledImages.filter((image) => image.category === "Snoballs"),
     },
     Lot7: {
       label: "Lot7",
